@@ -1,8 +1,3 @@
-<p align="center">
-  <img src="./art/Solium.png">
-</p>
-
-<br />
 
 ## Install
 ```bash
